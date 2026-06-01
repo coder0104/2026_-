@@ -1,0 +1,2 @@
+metric,f_statistic,p_value,note
+daily_curtailment_mwh,1.0225635478063464,0.3940815667872556,Independent one-way ANOVA. This ignores shared weather seeds.

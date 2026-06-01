@@ -1,0 +1,2 @@
+metric,factor,ss_factor,df_factor,ms_factor,ss_subject_seed,df_subject_seed,ss_error,df_error,ms_error,f_statistic,p_value,partial_eta_squared,note
+daily_curtailment_mwh,mode,46736.90970478695,3,15578.96990159565,528997.5266985002,9,19470.01613596815,27,721.1117087395612,21.60410060297911,2.421797112823013e-07,0.7059217613758625,Repeated-measures ANOVA with weather seed as the repeated subject.

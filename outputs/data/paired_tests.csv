@@ -1,0 +1,4 @@
+metric,baseline_mode,proposed_mode,mean_baseline_minus_proposed_mwh,paired_t_statistic,paired_t_p_value,wilcoxon_statistic,wilcoxon_p_value,n_paired_seeds,note
+daily_curtailment_mwh,Heuristic_Rule,Stochastic_Proposed,89.44779706089064,6.824869463087662,7.687188051177348e-05,1.0,0.00390625,10,Paired comparison by identical weather seed.
+daily_curtailment_mwh,Deterministic_Opt,Stochastic_Proposed,69.01795374732322,4.366824240621822,0.0018054214032552339,3.0,0.009765625,10,Paired comparison by identical weather seed.
+daily_curtailment_mwh,Rolling_Greedy,Stochastic_Proposed,33.50804080625504,4.018339504341019,0.003025618246896664,3.0,0.009765625,10,Paired comparison by identical weather seed.
