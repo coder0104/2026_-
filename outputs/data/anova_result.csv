@@ -1,2 +1,2 @@
-metric,f_statistic,p_value,note
-daily_curtailment_mwh,1.0225635478063464,0.3940815667872556,Independent one-way ANOVA. This ignores shared weather seeds.
+analysis_type,metric,f_statistic,p_value,note
+main_all_valid_may,total_curtailment_mwh,1.0791656438889372,0.36894202145880917,Independent one-way ANOVA retained for backward compatibility; main inference uses repeated measures.

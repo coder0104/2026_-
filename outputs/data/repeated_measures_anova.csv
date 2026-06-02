@@ -1,2 +1,3 @@
-metric,factor,ss_factor,df_factor,ms_factor,ss_subject_seed,df_subject_seed,ss_error,df_error,ms_error,f_statistic,p_value,partial_eta_squared,note
-daily_curtailment_mwh,mode,46736.90970478695,3,15578.96990159565,528997.5266985002,9,19470.01613596815,27,721.1117087395612,21.60410060297911,2.421797112823013e-07,0.7059217613758625,Repeated-measures ANOVA with weather seed as the repeated subject.
+analysis_type,metric,factor,ss_factor,df_factor,ms_factor,ss_subject,df_subject,ss_error,df_error,ms_error,f_statistic,p_value,partial_eta_squared,note
+main_all_valid_may,total_curtailment_mwh,mode,303362.61277799297,4,75840.65319449824,10413310.245652555,30,128257.7180747129,120,1068.8143172892742,70.95774445354104,1.0329673860236107e-30,0.7028459761815947,Repeated-measures ANOVA with date as the subject.
+sensitivity_top_risk,total_curtailment_mwh,mode,201707.22851283912,4,50426.80712820978,171892.9603289374,9,3765.545340482262,36,104.59848168006283,482.09884424949036,1.0150140098477844e-30,0.9816737503959024,Repeated-measures ANOVA with date as the subject.

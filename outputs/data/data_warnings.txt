@@ -1,0 +1,11 @@
+Data limitations:
+- The 14-bus / 20-line DC network is a simplified toy grid and is not the actual Korean transmission grid.
+- KPX raw renewable and demand values are scaled into the toy VPP grid using fixed training-period scaling factors.
+- Open-Meteo weather is not plant-site measured sensor data.
+- KPX market/transaction data may not represent every distributed generator.
+Excluded May dates count: 0
+Excluded row/date log entries count: 24
+Final test dates are all valid May dates: True
+Top-risk analysis is sensitivity-only and is not the basis for the main conclusion.
+Mainland curtailment files are not used as direct validation because the simulation uses Jeju weather and Jeju renewable generation.
+Hourly epsilon fallback count in test/simulation rows: 0

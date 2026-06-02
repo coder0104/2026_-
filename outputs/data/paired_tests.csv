@@ -1,4 +1,13 @@
-metric,baseline_mode,proposed_mode,mean_baseline_minus_proposed_mwh,paired_t_statistic,paired_t_p_value,wilcoxon_statistic,wilcoxon_p_value,n_paired_seeds,note
-daily_curtailment_mwh,Heuristic_Rule,Stochastic_Proposed,89.44779706089064,6.824869463087662,7.687188051177348e-05,1.0,0.00390625,10,Paired comparison by identical weather seed.
-daily_curtailment_mwh,Deterministic_Opt,Stochastic_Proposed,69.01795374732322,4.366824240621822,0.0018054214032552339,3.0,0.009765625,10,Paired comparison by identical weather seed.
-daily_curtailment_mwh,Rolling_Greedy,Stochastic_Proposed,33.50804080625504,4.018339504341019,0.003025618246896664,3.0,0.009765625,10,Paired comparison by identical weather seed.
+analysis_type,metric,baseline_mode,proposed_mode,mean_baseline_minus_proposed_mwh,paired_t_statistic,paired_t_p_value,wilcoxon_statistic,wilcoxon_p_value,n_paired_subjects,note
+main_all_valid_may,total_curtailment_mwh,Heuristic_Rule,Stochastic_Proposed,-2.5113093706198724,-0.7282373651112434,0.47211475528736646,87.0,0.04220715353440861,31,Paired comparison by identical date subject.
+main_all_valid_may,total_curtailment_mwh,Deterministic_Opt,Stochastic_Proposed,79.68261071946017,8.792911806780875,8.37005573011716e-10,0.0,8.29809930635731e-06,31,Paired comparison by identical date subject.
+main_all_valid_may,total_curtailment_mwh,Rolling_Greedy,Stochastic_Proposed,-12.633667439241446,-5.414649658449099,7.224094174478871e-06,1.0,6.898751069615868e-05,31,Paired comparison by identical date subject.
+main_all_valid_may,total_curtailment_mwh,Heuristic_Rule,SVR_ResidualQuantile,54.770327772530706,8.298840134175808,2.9063238833301074e-09,0.0,1.2290322210248409e-05,31,Paired comparison by identical date subject.
+main_all_valid_may,total_curtailment_mwh,Deterministic_Opt,SVR_ResidualQuantile,136.96424786261073,8.828598879767263,7.659769367752887e-10,0.0,8.29809930635731e-06,31,Paired comparison by identical date subject.
+main_all_valid_may,total_curtailment_mwh,Rolling_Greedy,SVR_ResidualQuantile,44.64796970390915,7.518527527052506,2.211635173324722e-08,0.0,5.9569779074563595e-05,31,Paired comparison by identical date subject.
+sensitivity_top_risk,total_curtailment_mwh,Heuristic_Rule,Stochastic_Proposed,-14.04550018858987,-7.46682522772846,3.823760237402594e-05,0.0,0.001953125,10,Paired comparison by identical date subject.
+sensitivity_top_risk,total_curtailment_mwh,Deterministic_Opt,Stochastic_Proposed,110.22551867936916,18.336444298969756,1.9502674494931583e-08,0.0,0.001953125,10,Paired comparison by identical date subject.
+sensitivity_top_risk,total_curtailment_mwh,Rolling_Greedy,Stochastic_Proposed,-16.98038687964769,-7.251604479223626,4.8079677947870976e-05,0.0,0.001953125,10,Paired comparison by identical date subject.
+sensitivity_top_risk,total_curtailment_mwh,Heuristic_Rule,SVR_ResidualQuantile,72.82929416303068,44.380959328523154,7.481709028657389e-12,0.0,0.001953125,10,Paired comparison by identical date subject.
+sensitivity_top_risk,total_curtailment_mwh,Deterministic_Opt,SVR_ResidualQuantile,197.10031303098972,30.44346105580558,2.1789833646187448e-10,0.0,0.001953125,10,Paired comparison by identical date subject.
+sensitivity_top_risk,total_curtailment_mwh,Rolling_Greedy,SVR_ResidualQuantile,69.89440747197287,29.43124738085364,2.9459598484316526e-10,0.0,0.001953125,10,Paired comparison by identical date subject.
